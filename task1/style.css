@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top-part{
+    width: 100%;
+    height: 30px;
+    background-color: aqua;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+ul{
+    position: absolute;
+    right: 0;
+    width: 60%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    
+}
+
+img{
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+p{
+    padding-top: 35px;
+}
