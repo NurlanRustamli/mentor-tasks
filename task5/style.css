@@ -1,0 +1,151 @@
+#services {
+    margin-top: 50px;
+}
+
+.row {
+    justify-content: center;
+}
+
+a {
+    display: block;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.s-item {
+    padding-top: 40px;
+    background-color: #bce6f5;
+    transition: all ease .4s;
+    border-radius: 15px;
+    height: 250px;
+    margin-bottom: 60px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: 600;
+    /* padding-bottom: 10px; */
+}
+
+.item-main img {
+    position: absolute;
+    width: 200px;
+    transform: translate(-50%, 0);
+    left: 50%;
+    bottom: 0;
+    border-radius: 0 0 10px 10px;
+}
+
+svg {
+    position: absolute;
+    bottom: 0;
+
+}
+
+.s-box {
+    padding-inline: 10px;
+}
+
+.HowYouDoWork_icon__2907d path {
+    fill: #96d5ed;
+}
+
+/* about */
+#about {
+    margin-top: 50px;
+    background-color: #f2f4f6;
+    padding: 80px 10px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 70px;
+    /* position: relative; */
+
+}
+
+.box h4 {
+    font-weight: 700;
+    font-size: 28px;
+    color: #2196c1;
+    margin-bottom: 20px;
+}
+
+.box p {
+    font: 400 16px;
+    color: #000;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+.box .btn {
+    font-size: 14px;
+    font-weight: 800;
+    border-radius: 25px;
+    background-color: #2196c1;
+    border: 1px solid #2196c1;
+    box-shadow: 0 10px 10px -10px #00435e;
+    padding: 15px 45px;
+    display: inline-block;
+    color: #fff;
+    transition: all 0.4s ease;
+
+}
+.btn:hover{
+    background-color: #fff;
+    color: #2196c1;
+}
+
+.right-side {
+    position: relative;
+}
+
+.right-side img {
+    width: 120%;
+    position: absolute;
+    bottom: -20px;
+    animation-name: moveUp;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+#accordion{
+    overflow: hidden;
+    padding-block: 80px;
+    
+}
+
+#accordion .row:first-child{;
+align-items: center;
+text-align: center;
+}
+#accordion .row:nth-child(2) .accordion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes moveUp{
+    0%
+    100%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(-50px);
+    }
+}
